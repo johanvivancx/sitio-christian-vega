@@ -13,11 +13,13 @@
 <script src="app.js" defer>
 </script>
 </head>
-<body>
+<body class="page-propuestas">
 <a class="skip-link" href="#contenido">Saltar al contenido</a>
 <header class="site-header">
 <div class="container header-inner">
 <a class="brand" href="index.html" aria-label="Christian Vega, inicio">
+<span class="brand-monogram" aria-hidden="true">CV<span>.</span>
+</span>
 <span class="brand-name">Christian <span class="brand-surname">Vega</span>
 </span>
 </a>
@@ -42,79 +44,115 @@
 </div>
 </header>
 <main id="contenido">
-<section class="page-intro">
+<section class="page-intro proposals-intro">
 <div class="container">
 <span class="kicker">MIS PROPUESTAS</span>
 <h1>Lo que quiero<br>
 <span>proponer.</span>
 </h1>
-<p>Si soy elegido consejero, presentaré estas propuestas al Consejo de Participación Ciudadana y Control Social (CPCCS). Aquí te explico cada una.</p>
+<p>Si soy elegido consejero, presentaré estas propuestas al Consejo de Participación Ciudadana y Control Social (CPCCS). Aquí te explico cada una, qué quiero cambiar y para qué.</p>
 </div>
 </section>
 <section class="section proposals-section">
 <div class="container">
+<nav class="proposal-shortcuts" aria-label="Ir a una propuesta">
+<span>¿Qué tema te interesa?</span>
+<a href="#propuesta-1">
+<span>01</span> Autoridades</a>
+<a href="#propuesta-2">
+<span>02</span> Denuncias</a>
+<a href="#propuesta-3">
+<span>03</span> Cursos</a>
+<a href="#propuesta-4">
+<span>04</span> Vigilancia</a>
+<a href="#propuesta-5">
+<span>05</span> Inclusión</a>
+<a href="#propuesta-6">
+<span>06</span> Cuentas claras</a>
+</nav>
 <div class="proposal-grid all-proposals">
-<article class="proposal-card">
+<article class="proposal-card" id="propuesta-1">
 <div class="card-top">
-<span>01 / ELECCIÓN DE AUTORIDADES</span>
-<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="M5 12h14m-6-6 6 6-6 6"/>
+<span class="proposal-number">01</span>
+<span class="proposal-category">ELECCIÓN DE AUTORIDADES</span>
+<span class="proposal-symbol">
+<svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m3 9 9-6 9 6M4 10h16M5 10v9m7-9v9m7-9v9M3 21h18"/>
 </svg>
+</span>
 </div>
 <h2>Elecciones de autoridades claras</h2>
 <p>Propondré que puedas consultar las fechas, los puntajes y las decisiones de los concursos para elegir autoridades que organiza el Consejo. También los reclamos y las respuestas.</p>
 <div class="card-action">Que puedas ver cómo avanza cada concurso.</div>
 </article>
-<article class="proposal-card">
+<article class="proposal-card" id="propuesta-2">
 <div class="card-top">
-<span>02 / TRANSPARENCIA</span>
-<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="M5 12h14m-6-6 6 6-6 6"/>
+<span class="proposal-number">02</span>
+<span class="proposal-category">TRANSPARENCIA</span>
+<span class="proposal-symbol">
+<svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<rect x="5" y="3" width="14" height="18" rx="2"/>
+<path d="M9 8h6m-6 4h6m-6 4h3"/>
 </svg>
+</span>
 </div>
 <h2>Que sepas qué pasó con tu denuncia</h2>
 <p>Propondré que cada denuncia tenga un código para consultar su avance y plazos de respuesta. Si debe atenderla otra institución, que se indique a cuál se envió, cuidando los datos personales.</p>
 <div class="card-action">Consultar tu denuncia sin empezar de cero.</div>
 </article>
-<article class="proposal-card">
+<article class="proposal-card" id="propuesta-3">
 <div class="card-top">
-<span>03 / CURSOS GRATUITOS</span>
-<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="M5 12h14m-6-6 6 6-6 6"/>
+<span class="proposal-number">03</span>
+<span class="proposal-category">CURSOS GRATUITOS</span>
+<span class="proposal-symbol">
+<svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m2 8 10-5 10 5-10 5-10-5Zm4 3v6c4 3 8 3 12 0v-6M22 8v7"/>
 </svg>
+</span>
 </div>
 <h2>Aprender a participar</h2>
 <p>Impulsaré cursos gratuitos, en persona y por internet, para aprender a pedir información pública, revisar el trabajo de las instituciones y conocer tus derechos.</p>
 <div class="card-action">Saber por dónde empezar y cómo hacerlo.</div>
 </article>
-<article class="proposal-card">
+<article class="proposal-card" id="propuesta-4">
 <div class="card-top">
-<span>04 / VIGILANCIA CIUDADANA</span>
-<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="M5 12h14m-6-6 6 6-6 6"/>
+<span class="proposal-number">04</span>
+<span class="proposal-category">VIGILANCIA CIUDADANA</span>
+<span class="proposal-symbol">
+<svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<circle cx="10" cy="10" r="6"/>
+<path d="m15 15 6 6M7 10h6m-3-3v6"/>
 </svg>
+</span>
 </div>
 <h2>Vigilancia ciudadana con respuesta</h2>
 <p>Las veedurías son grupos de ciudadanos que revisan el trabajo de las instituciones. Propondré publicar qué encontraron, qué recomendaron y si la institución respondió.</p>
 <div class="card-action">Que las observaciones no queden en el olvido.</div>
 </article>
-<article class="proposal-card">
+<article class="proposal-card" id="propuesta-5">
 <div class="card-top">
-<span>05 / ESPACIO PARA TODOS</span>
-<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="M5 12h14m-6-6 6 6-6 6"/>
+<span class="proposal-number">05</span>
+<span class="proposal-category">ESPACIO PARA TODOS</span>
+<span class="proposal-symbol">
+<svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<circle cx="9" cy="7" r="3"/>
+<path d="M3 21v-3a6 6 0 0 1 12 0v3m1-17a3 3 0 0 1 0 6m2 5a5 5 0 0 1 3 4v2"/>
 </svg>
+</span>
 </div>
 <h2>Más personas participando</h2>
 <p>Propondré información y cursos que puedan usar personas con discapacidad, adultos mayores y personas de distintos pueblos y nacionalidades, respetando sus necesidades y culturas.</p>
 <div class="card-action">Que participar sea más fácil para todos.</div>
 </article>
-<article class="proposal-card">
+<article class="proposal-card" id="propuesta-6">
 <div class="card-top">
-<span>06 / CUENTAS CLARAS</span>
-<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="M5 12h14m-6-6 6 6-6 6"/>
+<span class="proposal-number">06</span>
+<span class="proposal-category">CUENTAS CLARAS</span>
+<span class="proposal-symbol">
+<svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 3v18h17M8 16v-4m5 4V8m5 8V5"/>
 </svg>
+</span>
 </div>
 <h2>Que se explique qué se hizo y qué falta</h2>
 <p>Propondré informes fáciles de leer sobre el dinero que usa el Consejo, sus tareas y sus resultados. Que puedas descargar la información y hacer preguntas.</p>

@@ -13,11 +13,13 @@
 <script src="app.js" defer>
 </script>
 </head>
-<body>
+<body class="page-index">
 <a class="skip-link" href="#contenido">Saltar al contenido</a>
 <header class="site-header">
 <div class="container header-inner">
 <a class="brand" href="index.html" aria-label="Christian Vega, inicio">
+<span class="brand-monogram" aria-hidden="true">CV<span>.</span>
+</span>
 <span class="brand-name">Christian <span class="brand-surname">Vega</span>
 </span>
 </a>
@@ -47,7 +49,8 @@
 <div class="hero-copy">
 <div class="eyebrow">
 <span class="eyebrow-line" aria-hidden="true">
-</span>CONOCE A</div>
+</span>CHRISTIAN ISMAEL VEGA <span class="context-tag">CPCCS</span>
+</div>
 <h1 class="candidate-name">Christian<br>
 <em>Vega<span class="name-dot" aria-hidden="true">.</span>
 </em>
@@ -63,6 +66,7 @@
 </div>
 </div>
 <div class="hero-visual">
+<span class="portrait-side-label" aria-hidden="true">CONOCE MI HISTORIA</span>
 <div class="hero-image-wrap">
 <img src="assets/christian-vega.png" alt="Christian Ismael Vega con camisa blanca" width="1024" height="1536" fetchpriority="high">
 </div>
@@ -95,34 +99,45 @@
 <p>Estas son tres de mis propuestas. Puedes leer las seis y contarme qué piensas.</p>
 </div>
 <div class="proposal-grid">
-<article class="proposal-card">
+<article class="proposal-card" id="propuesta-1">
 <div class="card-top">
-<span>01 / ELECCIÓN DE AUTORIDADES</span>
-<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="M5 12h14m-6-6 6 6-6 6"/>
+<span class="proposal-number">01</span>
+<span class="proposal-category">ELECCIÓN DE AUTORIDADES</span>
+<span class="proposal-symbol">
+<svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m3 9 9-6 9 6M4 10h16M5 10v9m7-9v9m7-9v9M3 21h18"/>
 </svg>
+</span>
 </div>
 <h3>Elecciones de autoridades claras</h3>
 <p>Propondré que puedas consultar las fechas, los puntajes y las decisiones de los concursos para elegir autoridades que organiza el Consejo. También los reclamos y las respuestas.</p>
 <div class="card-action">Que puedas ver cómo avanza cada concurso.</div>
 </article>
-<article class="proposal-card">
+<article class="proposal-card" id="propuesta-4">
 <div class="card-top">
-<span>04 / VIGILANCIA CIUDADANA</span>
-<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="M5 12h14m-6-6 6 6-6 6"/>
+<span class="proposal-number">04</span>
+<span class="proposal-category">VIGILANCIA CIUDADANA</span>
+<span class="proposal-symbol">
+<svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<circle cx="10" cy="10" r="6"/>
+<path d="m15 15 6 6M7 10h6m-3-3v6"/>
 </svg>
+</span>
 </div>
 <h3>Vigilancia ciudadana con respuesta</h3>
 <p>Las veedurías son grupos de ciudadanos que revisan el trabajo de las instituciones. Propondré publicar qué encontraron, qué recomendaron y si la institución respondió.</p>
 <div class="card-action">Que las observaciones no queden en el olvido.</div>
 </article>
-<article class="proposal-card">
+<article class="proposal-card" id="propuesta-5">
 <div class="card-top">
-<span>05 / ESPACIO PARA TODOS</span>
-<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="M5 12h14m-6-6 6 6-6 6"/>
+<span class="proposal-number">05</span>
+<span class="proposal-category">ESPACIO PARA TODOS</span>
+<span class="proposal-symbol">
+<svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<circle cx="9" cy="7" r="3"/>
+<path d="M3 21v-3a6 6 0 0 1 12 0v3m1-17a3 3 0 0 1 0 6m2 5a5 5 0 0 1 3 4v2"/>
 </svg>
+</span>
 </div>
 <h3>Más personas participando</h3>
 <p>Propondré información y cursos que puedan usar personas con discapacidad, adultos mayores y personas de distintos pueblos y nacionalidades, respetando sus necesidades y culturas.</p>
@@ -139,7 +154,7 @@
 <div class="container editorial-grid">
 <div class="editorial-photo">
 <img src="assets/encuentro-ciudadano.jpg" alt="Encuentro colectivo con participantes de diversas instituciones" loading="lazy" decoding="async">
-<span>Archivo fotográfico · Encuentro colectivo</span>
+<span>Trabajo con personas y organizaciones · Archivo fotográfico</span>
 </div>
 <div>
 <span class="kicker">UN POCO SOBRE MÍ</span>
@@ -147,6 +162,16 @@
 <span>Este es mi recorrido.</span>
 </h2>
 <p>Soy ingeniero comercial y tengo una maestría en Gestión de Talento Humano. He trabajado en instituciones públicas, organizaciones sociales y proyectos con pueblos y nacionalidades.</p>
+<div class="profile-facts">
+<div>
+<strong>12+</strong>
+<span>años de experiencia</span>
+</div>
+<div>
+<strong>Gestión pública</strong>
+<span>y trabajo con organizaciones</span>
+</div>
+</div>
 <a class="text-link" href="sobre-mi.html">Conoce mi trayectoria <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 <path d="M5 12h14m-6-6 6 6-6 6"/>
 </svg>

@@ -10,3 +10,9 @@ Criterios elegidos con UI UX Pro Max: composición sencilla, jerarquía clara y 
 - Formulario: prepara correo, no almacena ni confirma envíos.
 
 El buscador de la skill es una referencia; las preferencias del usuario y la veracidad del contenido tienen prioridad.
+
+## Personalidad por página
+
+Se conserva azul y celeste. La consulta de UI UX Pro Max confirmó la estructura Hero + Features + CTA y se tomaron recursos de Editorial Grid: tamaños distintos, fotografía protagonista, numeración y separadores. Sin introducir la paleta verde sugerida ni cambiar las fuentes aprobadas.
+
+Inicio: marco de retrato, propuesta destacada, datos biográficos existentes y cierre azul. Propuestas: navegación por tema y seis anclas. Sobre mí: retrato, recorrido visual y fotografía existente. Participa: opciones de contacto con explicación y formulario claramente identificado.
