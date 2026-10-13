@@ -1,0 +1,34 @@
+/* Contenido editorial del sitio. Añade elementos a estas listas para ampliar
+   propuestas, hitos y medios sin modificar la estructura ni el diseño. */
+window.siteContent = {
+  proposals: [
+    { number: '01', tag: 'DESIGNACIÓN DE AUTORIDADES', title: 'Concursos abiertos de principio a fin', description: 'Propondré publicar en un tablero cada fase, cronograma, puntaje, impugnación y resolución motivada de los concursos que competen al CPCCS.', action: 'Etapas y retrasos visibles para cualquier persona.', icon: '↗' },
+    { number: '02', tag: 'TRANSPARENCIA', title: 'Denuncias con respuesta verificable', description: 'Impulsaré un código de seguimiento, plazos internos y reportes públicos agregados, con protección de datos y remisión a la autoridad competente cuando corresponda.', action: 'Saber qué pasó con cada trámite.', icon: '◎' },
+    { number: '03', tag: 'FORMACIÓN CIUDADANA', title: 'Aprender a participar', description: 'Fortaleceré la formación gratuita, presencial y virtual, sobre derechos, veedurías, rendición de cuentas e información pública, con ejemplos cercanos.', action: 'Conocimiento útil para actuar.', icon: '✳' },
+    { number: '04', tag: 'CONTROL SOCIAL', title: 'Veedurías con seguimiento', description: 'Propondré una ficha pública de cada veeduría con hallazgos, recomendaciones, respuesta de la entidad observada y estado de cumplimiento.', action: 'Que la vigilancia ciudadana tenga respuesta.', icon: '◉' },
+    { number: '05', tag: 'INCLUSIÓN', title: 'Participación sin barreras', description: 'Promoveré convocatorias y cursos accesibles, con pertinencia cultural y formatos útiles para pueblos, nacionalidades y grupos de atención prioritaria.', action: 'Más voces en los mecanismos del Consejo.', icon: '◌' },
+    { number: '06', tag: 'RENDICIÓN DE CUENTAS', title: 'Resultados fáciles de revisar', description: 'Propondré reportes claros sobre metas, gastos, concursos, veedurías y compromisos del CPCCS, con datos descargables y preguntas ciudadanas.', action: 'Comparar lo prometido con lo cumplido.', icon: '▤' }
+  ],
+  journey: [
+    { step: '01', title: 'Inscripción de la candidatura', detail: 'Espacio para fecha, constancia y enlace al expediente.', status: 'Documento por incorporar', media: '' },
+    { step: '02', title: 'Apelaciones y resoluciones', detail: 'Registro de recursos, decisiones y fechas, si corresponde.', status: 'Documento por incorporar', media: '' },
+    { step: '03', title: 'Sorteo y casillero en papeleta', detail: 'Papeleta de hombres · casillero 35, según la información de candidatura aportada.', status: 'Casillero 35', media: '' },
+    { step: '04', title: 'Sorteo de spots del CNE', detail: 'Espacio para fecha, acta y asignación de producción audiovisual.', status: 'Documento por incorporar', media: '' },
+    { step: '05', title: 'Filmación y difusión de spots', detail: 'Aquí se añadirán los videos oficiales y sus enlaces.', status: 'Video por incorporar', media: '' },
+    { step: '06', title: 'Campaña y encuentros', detail: 'Fotografías, reels y registros de conversaciones ciudadanas.', status: 'Galería abierta', media: '#campana' }
+  ],
+  profile: [
+    { id: 'formacion', index: '01', title: 'Formación académica', intro: 'Una base técnica para gestionar instituciones y proyectos.', items: ['Ingeniería Comercial, especialidad Recursos Humanos · Universidad Politécnica Salesiana', 'Maestría en Gestión de Talento Humano · Escuela Politécnica Nacional', 'Especialización en Gestión de Proyectos de Desarrollo · Universidad Andina Simón Bolívar', 'Maestría en Dirección Integrada de Proyectos de Desarrollo · estudios por retomar'], media: null },
+    { id: 'experiencia', index: '02', title: 'Experiencia profesional', intro: 'Más de 12 años en gestión pública, privada y social.', items: ['Dirección de Administración del Talento Humano · Secretaría de Gestión y Desarrollo de Pueblos y Nacionalidades', 'Gestión de talento humano y funciones administrativas · Universidad Amawtay Wasi', 'Responsabilidades administrativas y financieras · Consejo Nacional para la Igualdad de Pueblos y Nacionalidades', 'Experiencia en ministerios, entidades de control, educación y proyectos de desarrollo'], media: null },
+    { id: 'cursos', index: '03', title: 'Cursos y capacitación', intro: 'Aprendizaje aplicado a la gestión y al trabajo con personas.', items: ['Contratación pública y control interno', 'Gestión de talento humano por competencias', 'Seguridad y salud ocupacional', 'Liderazgo, formación de equipos y manejo de conflictos'], media: null },
+    { id: 'social', index: '04', title: 'Trayectoria social', intro: 'Trabajo con organizaciones y proyectos de desarrollo.', items: ['Dirección ejecutiva de la Fundación APRODSS', 'Trabajo en proyectos de la Fundación Wanrayariy', 'Delegación nacional al Fondo para el Desarrollo de los Pueblos Indígenas de América Latina y el Caribe, FILAC', 'Experiencia en instituciones de pueblos y nacionalidades'], media: { type: 'image', src: 'assets/encuentro-ciudadano.jpg', alt: 'Encuentro colectivo con participantes de diversas instituciones', caption: 'Encuentro colectivo · archivo fotográfico' } },
+    { id: 'publicaciones', index: '05', title: 'Publicaciones científicas', intro: 'Producción académica registrada en su hoja de vida.', items: ['Influencia del Libre Comercio en las posibilidades de Desarrollo Económico en los países Latinoamericanos'], link: { label: 'Consultar publicación ↗', url: 'https://doi.org/10.37811/cl_rcm.v8i5.13928' }, media: null },
+    { id: 'logros', index: '06', title: 'Logros relevantes', intro: 'Resultados de gestión mencionados en su hoja de vida.', items: ['Implementación de un plan de fortalecimiento institucional ante observaciones de Contraloría', 'Apoyo a procesos de institucionalización y elección de autoridades académicas', 'Gestión de procesos de supresión y transición de instituciones públicas', 'Captación de recursos no reembolsables para proyectos de desarrollo social'], media: null },
+    { id: 'becas', index: '07', title: 'Becas internacionales', intro: 'Aprendizajes en gestión de proyectos y desarrollo humano.', items: ['India · Infrastructure Project Management & PPP · Gati Shakti Vishwavidyalaya', 'China · Seminario de Capacitación para el Desarrollo y Construcción de Recursos Humanos de Ecuador · Colegio de Estudios Extranjeros de Jiangxi'], media: null }
+  ],
+  campaignMedia: [
+    { type: 'placeholder', category: 'FOTOS', title: 'Encuentros de campaña', description: 'Galería para añadir imágenes con fecha, lugar y breve contexto.' },
+    { type: 'placeholder', category: 'REELS', title: 'Voces ciudadanas', description: 'Videos cortos con ideas, preguntas y respuestas.' },
+    { type: 'placeholder', category: 'SPOTS CNE', title: 'Piezas audiovisuales', description: 'Espacio para los spots y su información de producción.' }
+  ]
+};

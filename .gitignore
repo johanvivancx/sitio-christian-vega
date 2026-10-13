@@ -1,0 +1,9 @@
+respaldo*/
+.agents/
+.codex/
+.vscode/
+.env
+.env.*
+*.log
+Thumbs.db
+.DS_Store
